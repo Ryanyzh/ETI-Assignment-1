@@ -46,11 +46,11 @@ The car-pooling platform is ingeniously designed with a microservices architectu
 3. Microservices:
     - Description: The core functionality of the car-pooling platform is divided into microservices, each responsible for specific tasks.
     - Purpose:
-        3a. Trip Microservice (Go Lang):
+        - 3a. Trip Microservice (Go Lang):<br/>
             - Manages data related to carpool trips, including trip details, availability, and booking information.
             - Handles CRUD (Create, Read, Update, Delete) operations for trips.
             - Ensures that trip-related business logic is encapsulated within this microservice.
-        3b. User Microservice (Go Lang):
+        - 3b. User Microservice (Go Lang):
             - Manages user-related data, including user profiles, authentication, and authorization.
             - Handles user registration, login, and profile management.
             - Ensures that user-related business logic is encapsulated within this microservice.
