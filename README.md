@@ -158,7 +158,7 @@ Follow these steps to set up and run the microservices locally:
     ```
 
 3. Database:
-    - Database are stored in the database folder (/codes/database/script.sql)
+    - Database codes are stored in the database folder (/codes/database/script.sql)
 
 4. To stop the services, use:
 
