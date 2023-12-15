@@ -32,6 +32,7 @@ The car-pooling platform is ingeniously designed with a microservices architectu
 
 
 
+
 ## Architecture Diagram
 
 ![Microservices Architecture Diagram](diagram/Architecture-Diagram.png)
