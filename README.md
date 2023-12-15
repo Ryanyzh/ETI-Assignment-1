@@ -79,8 +79,10 @@ Follow these steps to set up and run the microservices locally:
 
 #### Prerequisites
 
-- Ensure you have Docker and Docker Compose installed on your machine.
-- Install any necessary dependencies for each microservice.
+- Ensure that npx/npm and Node.js is installed in the  device.
+- Ensure that go is installed in the device.  
+- Ensure that ports 3000, 5000, 5001 and 3006 are not in used. 
+- Since this project uses the IDE, Visual Studio Code (VSC), ensure that the go dependencies are installed in VSC.
 
 #### Steps
 
@@ -156,12 +158,7 @@ Follow these steps to set up and run the microservices locally:
     ```
 
 3. Database:
-
-    - Frontend: [Listening on port 3000](http://localhost:3000)
-    - Trip Backend: Listening on port 5001
-    - User Backend: Listening on port 5000
-    - MySQL Database: Listening on port 3306
-
+    - Database are stored in the database folder ()
 
 4. To stop the services, use:
 
@@ -172,11 +169,12 @@ Follow these steps to set up and run the microservices locally:
     Select Y (for yes) in the frontend application
     ```
 
+#### Side Notes: 
+- Frontend: [Listening on port 3000](http://localhost:3000)
+- Trip Backend: Listening on port 5001
+- User Backend: Listening on port 5000
+- MySQL Database: Listening on port 3306
 
 ## Contributors
 
 - Yong Zong Han Ryan (S10219317A)
-
-## Useful Links
-
-- This project is licensed under the [MIT License](LICENSE).
